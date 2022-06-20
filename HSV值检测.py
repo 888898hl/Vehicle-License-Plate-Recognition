@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 def plt_show0(img):#plt显示彩色图
-    # cv2与plt的图像通道不同：cv2为[b,g,r];plt为[r, g, b]
     b, g, r = cv2.split(img)
     img = cv2.merge([r, g, b])
     plt.imshow(img)
