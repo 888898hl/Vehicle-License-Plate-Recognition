@@ -8,7 +8,7 @@ import imutils
 car_plate_w, car_plate_h = 180, 36  # 车牌宽和高 180
 char_w,char_h = 20,20
 cur_dir = sys.path[0]
-char_model_path = os.path.join(cur_dir,'./carIdentityData/model/char_recongnize/model.ckpt-590.meta')#字符识别模型
+char_model_path = os.path.join(cur_dir,'./model.ckpt-590.meta')#字符识别模型
 char_table = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K',
               'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '川', '鄂', '赣', '甘', '贵',
               '桂', '黑', '沪', '冀', '津', '京', '吉', '辽', '鲁', '蒙', '闽', '宁', '青', '琼', '陕', '苏', '晋',
